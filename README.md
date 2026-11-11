@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Contact form email
+
+The contact form sends messages to `zaidsaleem375@gmail.com` through Gmail. To enable delivery locally:
+
+1. Enable 2-Step Verification for the sending Gmail account and create a Google App Password.
+2. Copy `.env.example` to `.env.local` in the project root.
+3. Replace the example values with the sending Gmail address and its App Password. Do not use your regular Gmail password or commit `.env.local`.
+4. Restart the development server.
+
+For a deployed site, add `GMAIL_USER` and `GMAIL_APP_PASSWORD` as environment variables in the hosting provider's project settings, then redeploy. Keep the App Password private.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
