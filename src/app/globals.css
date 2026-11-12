@@ -56,6 +56,16 @@ a {
   backdrop-filter: blur(16px);
 }
 
+.site-nav-links {
+  gap: 2rem;
+}
+
+.site-header nav button:focus-visible,
+.site-header nav a:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 3px;
+}
+
 .nav-link {
   transition: color 160ms ease;
 }
@@ -559,18 +569,6 @@ a {
 }
 
 @media (max-width: 639px) {
-  .site-header nav {
-    gap: 0.7rem;
-  }
-
-  .site-header nav > a:first-child {
-    font-size: 1rem;
-  }
-
-  .site-header nav > div {
-    gap: 0.65rem;
-  }
-
   .hero-section .min-h-\[690px\] {
     min-height: auto;
     padding-top: 9rem;
@@ -583,6 +581,12 @@ a {
 
   .art-chip-bottom {
     left: -0.25rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .site-nav-links {
+    gap: 0;
   }
 }
 
