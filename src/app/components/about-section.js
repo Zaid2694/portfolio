@@ -26,10 +26,9 @@ export default function AboutSection() {
             width={112}
           />
           <p className="text-base leading-8 text-slate-400">
-            Hi, I&apos;m Zaid. I&apos;m a frontend developer in progress,
-            learning to build clear and responsive interfaces. I enjoy bringing
-            design and technology together to make websites that feel good to
-            use.
+            I&apos;m a Full-Stack AI Developer building intelligent, end-to-end
+            applications and delivering polished digital experiences across a
+            range of projects.
           </p>
           <p className="mt-5 text-base leading-8 text-slate-400">
             From the first sketch to the final details, I care about

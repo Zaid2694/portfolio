@@ -13,12 +13,12 @@ const projects = [
   },
   {
     number: "02",
-    category: "FULL-STACK EXPERIENCE",
-    title: "Authentication Dashboard",
+    category: "PERSONAL PORTFOLIO",
+    title: "Portfolio Website",
     description:
-      "A web application experience with sign-in, sign-up, email verification, and an admin area.",
-    stack: ["React", "JavaScript", "Authentication"],
-    github: "https://github.com/Zaid2694",
+      "A personal portfolio showcasing my background, skills, and projects, with a responsive design and a contact form for new opportunities.",
+    stack: ["Next.js", "React", "Tailwind CSS"],
+    github: "https://github.com/Zaid2694/Portfolio",
     accent: "violet",
   },
   {
